@@ -1,0 +1,15 @@
+#!/bin/bash
+
+export VERILATOR_ROOT=/home/verilog/Risk_V_tools/Verilator/verilator
+
+export PATH=$VERILATOR_ROOT/bin:$PATH
+
+export PATH=/home/verilog/Risk_V_tools/Compiler/riscv-gcc-10.2.0-gbbc9263-210318T1412/bin:$PATH
+
+echo "VERILATOR_ROOT:"
+echo $VERILATOR_ROOT
+
+echo "PATH:"
+echo $PATH
+
+bash
